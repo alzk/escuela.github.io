@@ -3,6 +3,7 @@
 <head>
     <!-- Exportación de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Examen Casero</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
@@ -39,23 +40,36 @@
                 margin-top: 40%;
             }
         }
+
+        footer {
+            color: white
+        }
+
+        nav-link {
+            color: white;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="nav-item nav-link" href="#">Mundo</a>
-        <a class="nav-item nav-link" href="#">NOS</a>
-        <a class="nav-item nav-link" href="#">Tecnología</a>
-        <a class="nav-item nav-link" href="#">Diseño</a>
-        <a class="nav-item nav-link" href="#">Cultura</a>
-        <a class="nav-item nav-link" href="#">Negocio</a>
-        <a class="nav-item nav-link" href="#">Politica</a>
-        <a class="nav-item nav-link" href="#">Opinion</a>
-        <a class="nav-item nav-link" href="#">Ciencias</a>
-        <a class="nav-item nav-link" href="#">Salud</a>
-        <a class="nav-item nav-link" href="#">Estilo</a>
-        <a class="nav-item nav-link" href="#">Viaje</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">            
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Mundo</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">NOS</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Tecnología</a>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Diseño</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Cultura</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Negocio</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Politica</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Opinion</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Ciencias</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Salud</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Estilo</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#">Viaje</a></li>
+                
+            </ul>
+        </div>
     </nav>
 
     <div class="container-md">
@@ -150,7 +164,7 @@
 </body>
 
 <footer class="bg-dark">
-    Derechos Reservados
+    Derechos Reservados <kbd>Alonso Garcia</kbd>
 </footer>
 
 </html>
